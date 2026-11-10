@@ -1,0 +1,131 @@
+# a = 2
+# int=1
+# print(int);
+# print(type(a));
+# s = "first"
+# x = "last name"
+# print(s[1:]+x[::-1])
+# print('interpolation {}'.format(x))
+# print(f'interpolation {x}')
+# x=['test', 1, 1];
+# print(x.count(1))
+
+# di = {"k1": "v1"}
+# print(di, di["k1"], list(di.keys()))
+
+# for key in di.keys():
+#     print(key)
+# a = {1,2,2}
+# a.add(3)
+# print(a)
+# print(set(x))
+
+# myfile = open('./files/test.txt')
+# myfile.readlines()
+# myfile.seek(0)
+# print(myfile.readlines())
+# myfile.close()
+
+# with open('./files/new.txt', mode='w') as new_file:
+#     new_file.write('\nadded new line')
+
+# if 1==2:
+#     print('true')
+# elif 1==1:
+#     print('elif')
+# else:
+#     print('false')
+
+# numL = [1,2,3,4];
+# for num in range(2,50):
+#     if num%2==0:
+#         print(num)
+#     else:
+#         print(f'odd number {num}')
+        
+# tupL = [(1,2),(3,4)]
+# for (f,s) in tupL:
+#     print(f,s)
+
+# di = {"k1": "v1"}
+# for k,v in di.items():
+#     print(k,v)
+
+# word = 'ayush'
+# for ind,letter in enumerate(word):
+#     print(ind, letter)
+# from random import shuffle
+
+# l = [1,2,3,4]
+# shuffle(l)
+# print(l)
+
+# res = input('Enter Name: ')
+# print(f'my name is {res}')
+
+# loopVar = [x**2 for x in range(0,10) if x%2==0]
+# print(loopVar)
+
+# def add(x,y=5):
+#     return x+y
+
+# print(add(3))
+
+# def extractEven(arr):
+#     temp = []
+#     for i in arr:
+#         if (i%2==0):
+#             temp.append(i);
+            
+#     return temp
+
+# print(extractEven([1,2,3,4]))
+
+# def sum_args(*args):
+#     s=0;
+#     print(args)
+#     for num in args:
+#         s+=num  
+#     return s
+    
+# print(sum_args(10,20,30))
+
+# def printDict(*args, **kwargs):
+#     print(args, kwargs)
+    
+# printDict(2, 10, fruit='apple', veggie='bad')
+
+# def myfunc(str):
+#     res = ''
+#     for i, c in enumerate(str):
+#         if((i+1)%2==0):
+#              res+=c.upper()
+#         else:
+#             res+=c.lower()
+            
+#     return res
+
+# print(myfunc('ayush'))
+
+# print([3,3]==[3,4])
+
+# Lambda
+# a = [1,2,3,4,5]
+# print(list(map(lambda n: n%2==0, a)))
+# print(list(filter(lambda n: n%2==0, a)))
+
+# from colorama import init, Fore
+# init()
+# print(Fore.RED+"red text")
+
+def add(n1,n2):
+    try:
+        print(n1+n2)
+    except:
+        print('incorrect data types')
+    finally: 
+        pass
+
+num1=10
+num2=input('please enter number: ')
+add(num1,num2)

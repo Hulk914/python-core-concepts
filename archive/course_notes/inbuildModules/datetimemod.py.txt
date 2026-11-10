@@ -1,0 +1,12 @@
+import datetime
+from datetime import date
+
+mytime = datetime.time(2,20)
+print(mytime)
+
+today = datetime.date.today()
+print(today)
+
+date1=date(2021,11,3)
+date2=date(2022,11,3)
+print(date2-date1)

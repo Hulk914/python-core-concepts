@@ -1,0 +1,5 @@
+from mainpack import mainpck
+from mainpack.subpack import subpck
+
+mainpck.report_main()
+subpck.sub_report()

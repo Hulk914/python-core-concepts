@@ -1,0 +1,9 @@
+# a=1
+# b=2
+# print(a)
+# print(B)
+
+def cap(str):
+    return str.capitalize()
+
+print(cap('test'))

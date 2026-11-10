@@ -1,0 +1,25 @@
+class Dog():
+    
+    species = 'mammal'
+    
+    def __init__(self, breed, name):
+        self.breed = breed
+        self.name = name
+        
+    def __str__(self):
+        return f'I am dog {self.name}'
+    
+    def __len__(self):
+        return len(self.name)
+    
+    def __del__(self):
+        print('deleted dog')
+        
+    def bark(self, age):
+        print(f'{self.name} Woofs at age {age} species {Dog.species}')
+        
+
+dog = Dog('Lab', 'jenny')
+dog.bark(10)
+print(len(dog))
+del dog
