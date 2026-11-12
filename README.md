@@ -4,6 +4,8 @@ A practical, example-first course and refresher for core Python. Start with valu
 
 This project grew out of my Python course practice notes. The original experiments are preserved in [`archive/course_notes`](archive/course_notes); the lessons turn those experiments into an organized learning resource.
 
+Read the [99-page Ultimate Core Python Guide (PDF)](docs/ultimate_python_core_guide.pdf) for theory, repository implementations, revision exercises and 48 answered interview questions across fresher, mid-level, senior and architect levels. An [editable Markdown edition](docs/ultimate_python_core_guide.md) and [rebuild instructions](docs/python_guide/README.md) are included.
+
 ## Start here
 
 You need **Python 3.10 or newer** and a terminal. The course uses only the standard library: no packages, accounts, or API keys are required. Run commands from this repository's root directory.

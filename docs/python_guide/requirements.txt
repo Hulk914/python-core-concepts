@@ -1,0 +1,3 @@
+# Optional PDF authoring/inspection dependencies, separate from the course.
+reportlab==5.1.0
+PyMuPDF==2.1

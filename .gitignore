@@ -8,3 +8,5 @@ venv/
 htmlcov/
 .DS_Store
 Thumbs.db
+.book-tools/
+.book-preview/
